@@ -1,0 +1,5 @@
+let menu = document.querySelector(".menu")
+let mobile = document.querySelector(".mobile__nav")
+let close = document.querySelector(".close")
+menu.addEventListener('click',()=>{mobile.classList.remove("hide")})
+close.addEventListener('click',()=>{mobile.classList.add("hide")})
